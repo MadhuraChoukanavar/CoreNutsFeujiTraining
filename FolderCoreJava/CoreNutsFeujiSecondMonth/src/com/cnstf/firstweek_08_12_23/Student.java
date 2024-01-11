@@ -1,0 +1,47 @@
+package com.cnstf.firstweek_08_12_23;
+
+public class Student {
+	int stuId;
+	String stuName;
+	
+	
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public Student(int stuId, String stuName) {
+		super();
+		this.stuId = stuId;
+		this.stuName = stuName;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Student [stuId=" + stuId + ", stuName=" + stuName + "]";
+	}
+
+
+	public int getStuId() {
+		return stuId;
+	}
+
+
+	public void setStuId(int stuId) {
+		this.stuId = stuId;
+	}
+
+
+	public String getStuName() {
+		return stuName;
+	}
+
+
+	public void setStuName(String stuName) {
+		this.stuName = stuName;
+	}
+	
+	
+}
